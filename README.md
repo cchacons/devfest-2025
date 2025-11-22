@@ -50,10 +50,111 @@ This is a simple command-line chatbot using the Google Gemini API.
     node --env-file=.env app.js
     ```
 
-### Demo 2: [Placeholder]
+### Demo 2: Weather Chatbot with Function Calling
 
-(Instructions for Demo 2 will be added here)
+This demo showcases how to use Gemini's function calling capability to retrieve real-time (simulated) data. The chatbot can answer questions about the weather in specific cities by calling a defined `getWeather` function.
 
-### Demo 3: [Placeholder]
+#### Key Features
+-   **Function Calling**: Defines a tool for retrieving weather data.
+-   **User Confirmation**: Asks for permission before executing the function.
+-   **Simulated Data**: Provides weather for Singapore, New York, London, and Tokyo.
 
-(Instructions for Demo 3 will be added here)
+#### Setup Instructions
+
+1.  **Navigate to the directory**
+    ```bash
+    cd demo-2
+    ```
+2.  **Configure Environment Variables**
+    Copy the example environment file and add your API key:
+    ```bash
+    cp .env.example .env
+    ```
+    Edit `.env` and set `GEMINI_API_KEY`.
+
+3.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+4.  **Run the Application**
+    ```bash
+    node --env-file=.env app.js
+    ```
+
+### Demo 3: Flight Booking Agent
+
+This is a more advanced agent capable of searching for flights and making bookings. It demonstrates multi-turn conversations and complex tool usage.
+
+#### Key Features
+-   **Complex Tool Use**: Supports `searchFlights` and `bookFlight` functions.
+-   **Interactive Flow**: Guides the user through searching, selecting, and booking a flight.
+-   **Structured Output**: Displays flight options in a clear, readable format.
+
+#### Setup Instructions
+
+1.  **Navigate to the directory**
+    ```bash
+    cd demo-3
+    ```
+2.  **Configure Environment Variables**
+    Copy the example environment file and add your API key:
+    ```bash
+    cp .env.example .env
+    ```
+    Edit `.env` and set `GEMINI_API_KEY`.
+
+3.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+4.  **Run the Application**
+    ```bash
+    node --env-file=.env app.js
+    ```
+### Demo 4: Model Context Protocol (MCP) Client & Server
+
+This demo illustrates the Model Context Protocol (MCP), where a client connects to a server to access tools. Here, a Gemini-powered client connects to a "SWAPI" (Star Wars API) MCP server.
+
+#### Key Features
+-   **MCP Architecture**: Separates the AI client from the tool-providing server.
+-   **SWAPI Integration**: The server exposes tools to query Star Wars data.
+-   **Gemini Integration**: The client uses Gemini to understand user queries and call MCP tools.
+
+#### Setup Instructions
+
+This demo consists of two parts: the server and the client.
+
+**1. Setup the Server**
+
+1.  Navigate to the `mcp-server` directory:
+    ```bash
+    cd mcp-server
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+    (Note: The server does not require an API key for this demo, but you can verify the `.env` if needed).
+
+**2. Setup and Run the Client**
+
+1.  Open a new terminal window and navigate to the `mcp-client` directory:
+    ```bash
+    cd mcp-client
+    ```
+2.  Configure Environment Variables:
+    ```bash
+    cp .env.example .env
+    ```
+    Edit `.env` and set `GEMINI_API_KEY`.
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
+4.  Start the Client:
+    ```bash
+    npm start
+    ```
+    The client will automatically start the server (defined in `config.ts`) and establish the connection. You can then chat about Star Wars!

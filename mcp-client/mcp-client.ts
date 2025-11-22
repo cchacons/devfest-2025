@@ -22,8 +22,8 @@ export async function setupMCPClient(): Promise<Client> {
   );
 
   const transport = new StdioClientTransport({
-    command: 'node',
-    args: ['--experimental-strip-types', '--no-warnings', MCP_SERVER_PATH],
+    command: 'npx',
+    args: ['tsx', MCP_SERVER_PATH],
   });
 
   await client.connect(transport);
