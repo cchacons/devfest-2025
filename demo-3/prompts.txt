@@ -1,0 +1,3 @@
+find me a flight from singapore to zurich, 25 nov 2025, return 30 nov 2025 for 1 pax, business.
+
+book me a flight from singapore to zurich, 25 nov 2025, return 30 nov 2025 for 1 pax, business. pax is Tamas Piros, test@test.com

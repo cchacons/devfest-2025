@@ -1,0 +1,16 @@
+{
+  "name": "devfest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "demo-1": "cd demo-1 && node --env-file=.env app.js",
+    "demo-2": "cd demo-2 && node --env-file=.env app.js",
+    "demo-3": "cd demo-3 && node --env-file=.env app.js",
+    "simple-mcp-server": "cd mcp-server && node --experimental-strip-types --no-warnings simple-mcp-server.ts",
+    "simple-mcp-client": "cd mcp-client && node --env-file=.env --experimental-strip-types --no-warnings simple-mcp-client.ts",
+    "mcp-client": "cd mcp-client && node --env-file=.env --experimental-strip-types --no-warnings client.ts",
+    "mcp-server": "cd mcp-client && node --env-file=.env --experimental-strip-types --no-warnings server.ts",
+    "inspect-simple-mcp-server": "npx @modelcontextprotocol/inspector node --experimental-strip-types --no-warnings simple-mcp-server.ts",
+    "inspect-mcp-server": "npx @modelcontextprotocol/inspector node --experimental-strip-types --no-warnings server.ts"
+  }
+}

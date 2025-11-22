@@ -1,0 +1,148 @@
+[
+  {
+    "id": "SQ327-LX178",
+    "airline": "Singapore Airlines / Swiss",
+    "route": "Singapore (SIN) → Zurich (ZRH)",
+    "outbound": {
+      "flightNumber": "SQ327",
+      "departure": "23:55",
+      "arrival": "06:30+1",
+      "duration": "13h 35m",
+      "stops": 0
+    },
+    "return": {
+      "flightNumber": "LX178",
+      "departure": "22:10",
+      "arrival": "16:45+1",
+      "duration": "11h 35m",
+      "stops": 0
+    },
+    "pricing": {
+      "economy": 1250,
+      "business": 5800
+    }
+  },
+  {
+    "id": "SQ26-SQ25",
+    "airline": "Singapore Airlines",
+    "route": "Singapore (SIN) → Zurich (ZRH)",
+    "outbound": {
+      "flightNumber": "SQ26",
+      "departure": "01:20",
+      "arrival": "08:15",
+      "duration": "13h 55m",
+      "stops": 0
+    },
+    "return": {
+      "flightNumber": "SQ25",
+      "departure": "13:00",
+      "arrival": "07:30+1",
+      "duration": "11h 30m",
+      "stops": 0
+    },
+    "pricing": {
+      "economy": 1320,
+      "business": 6200
+    }
+  },
+  {
+    "id": "LH778-LH779",
+    "airline": "Lufthansa",
+    "route": "Singapore (SIN) → Zurich (ZRH)",
+    "outbound": {
+      "flightNumber": "LH778",
+      "departure": "14:30",
+      "arrival": "09:45+1",
+      "duration": "16h 15m",
+      "stops": 1,
+      "via": "Frankfurt"
+    },
+    "return": {
+      "flightNumber": "LH779",
+      "departure": "18:40",
+      "arrival": "15:20+1",
+      "duration": "13h 40m",
+      "stops": 1,
+      "via": "Munich"
+    },
+    "pricing": {
+      "economy": 980,
+      "business": 4500
+    }
+  },
+  {
+    "id": "EK354-EK88",
+    "airline": "Emirates",
+    "route": "Singapore (SIN) → Zurich (ZRH)",
+    "outbound": {
+      "flightNumber": "EK354",
+      "departure": "03:00",
+      "arrival": "14:15",
+      "duration": "18h 15m",
+      "stops": 1,
+      "via": "Dubai"
+    },
+    "return": {
+      "flightNumber": "EK88",
+      "departure": "09:50",
+      "arrival": "23:35",
+      "duration": "16h 45m",
+      "stops": 1,
+      "via": "Dubai"
+    },
+    "pricing": {
+      "economy": 1100,
+      "business": 5200
+    }
+  },
+  {
+    "id": "QR943-QR161",
+    "airline": "Qatar Airways",
+    "route": "Singapore (SIN) → Zurich (ZRH)",
+    "outbound": {
+      "flightNumber": "QR943",
+      "departure": "08:15",
+      "arrival": "19:05",
+      "duration": "17h 50m",
+      "stops": 1,
+      "via": "Doha"
+    },
+    "return": {
+      "flightNumber": "QR161",
+      "departure": "15:20",
+      "arrival": "06:40+1",
+      "duration": "14h 20m",
+      "stops": 1,
+      "via": "Doha"
+    },
+    "pricing": {
+      "economy": 1050,
+      "business": 4900
+    }
+  },
+  {
+    "id": "TK54-TK1921",
+    "airline": "Turkish Airlines",
+    "route": "Singapore (SIN) → Zurich (ZRH)",
+    "outbound": {
+      "flightNumber": "TK54",
+      "departure": "21:30",
+      "arrival": "12:40+1",
+      "duration": "18h 10m",
+      "stops": 1,
+      "via": "Istanbul"
+    },
+    "return": {
+      "flightNumber": "TK1921",
+      "departure": "20:15",
+      "arrival": "13:25+1",
+      "duration": "15h 10m",
+      "stops": 1,
+      "via": "Istanbul"
+    },
+    "pricing": {
+      "economy": 920,
+      "business": 4200
+    }
+  }
+]

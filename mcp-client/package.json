@@ -1,0 +1,21 @@
+{
+  "name": "mcp-client",
+  "version": "1.0.0",
+  "description": "MCP Client with Gemini SDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env --experimental-strip-types --no-warnings client.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "@modelcontextprotocol/sdk": "^1.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  }
+}
