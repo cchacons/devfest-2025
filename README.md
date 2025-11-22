@@ -2,6 +2,18 @@
 
 This repository contains demos and examples for DevFest 2025.
 
+## Getting Started
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/tpiros/devfest-2025.git
+    cd devfest-2025
+    ```
+
+2.  **Open the project:**
+    -   **VS Code:** Open the folder in Visual Studio Code (`code .`).
+    -   **Antigravity Google IDE:** Open the project using the Antigravity interface.
+
 ## Prerequisites
 
 -   Node.js (v18 or later recommended)
