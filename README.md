@@ -4,15 +4,37 @@ This repository contains demos and examples for DevFest 2025.
 
 ## Getting Started
 
-1.  **Clone the repository:**
+### 1. Clone the Repository (macOS)
+
+1.  **Open Terminal:**
+    -   Press `Command + Space` to open Spotlight Search.
+    -   Type `Terminal` and press `Enter`.
+
+2.  **Navigate to your Documents folder:**
+    ```bash
+    cd ~/Documents
+    ```
+
+3.  **Clone the repository:**
     ```bash
     git clone https://github.com/tpiros/devfest-2025.git
+    ```
+
+4.  **Enter the project directory:**
+    ```bash
     cd devfest-2025
     ```
 
-2.  **Open the project:**
-    -   **VS Code:** Open the folder in Visual Studio Code (`code .`).
-    -   **Antigravity Google IDE:** Open the project using the Antigravity interface.
+### 2. Open the Project
+
+1.  **Launch your IDE:**
+    -   Open **Visual Studio Code** or **Antigravity Google IDE**.
+
+2.  **Open the Project Folder:**
+    -   Go to **File** > **Open Folder...** (or just **Open...**).
+    -   Navigate to your `Documents` folder.
+    -   Select the `devfest-2025` folder.
+    -   Click **Open**.
 
 ## Prerequisites
 
